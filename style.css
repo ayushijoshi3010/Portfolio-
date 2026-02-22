@@ -1,0 +1,60 @@
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6f9;
+}
+
+/* Navbar */
+.custom-nav {
+    background-color: #f8d7e6;
+}
+
+/* Hero */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+/* Sections */
+.section-title {
+    color: #c2185b;
+}
+
+.bg-soft {
+    background-color: #fff0f6;
+}
+
+/* Buttons */
+.btn-pink {
+    background-color: #e91e63;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #c2185b;
+}
+
+/* Cards */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-logo {
+    width: 120px;
+    margin: 20px auto 0;
+    display: block;
+}
